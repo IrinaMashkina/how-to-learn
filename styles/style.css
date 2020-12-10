@@ -179,13 +179,20 @@
   padding: 0;
   margin: 0;
 }
+.oakley {
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding:160px 0 0 0;
+  background-color: #f2f2f2;
+}
 
 .feynman {
   z-index: 1;
   position: relative;
   min-height: 790px;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 80px;
   background-color:  #f2f2f2;
 }
 
