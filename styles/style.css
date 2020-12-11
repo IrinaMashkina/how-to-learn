@@ -373,23 +373,19 @@
   margin: 0 0 68px;
 }
 
-.khan__book-and-link-container {
+.khan__book-container {
   display:flex;
   justify-content: flex-start;
   align-items: flex-start;
-}
-
-.khan__book-container {
   margin: 0;
-  width: 620px;
-  height: 608px;
-  background-size: cover;
-  overflow: hidden;
-
 }
 
 .khan__book-pic {
-  width: 100%;
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
   }
 
 .khan__buy-link {
