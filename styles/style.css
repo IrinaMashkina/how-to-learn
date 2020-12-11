@@ -190,14 +190,17 @@
 
 .video {
   margin: o auto;
+
 }
 
 .video__iframes {
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 20px auto 0;
   width: 1050px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top:30px;
+
 }
 
 .video__iframe {
@@ -206,6 +209,7 @@
   height: 316px;
   display: flex;
   align-items: center;
+
 }
 
 .digits {
