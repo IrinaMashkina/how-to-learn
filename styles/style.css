@@ -66,10 +66,11 @@
 .header__link {
   text-decoration: none;
   color:#2f80ed;
+  transition:opacity 0.5s linear;
 }
 
 .header__link:hover {
-  color:#85b8fa;
+  opacity: 0.5;
 }
 .header__main-illustration {
   position:absolute;
@@ -311,6 +312,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  transition:opacity 0.5s linear;
   position: absolute;
   right: 48px;
   top: 50%;
@@ -319,7 +321,7 @@
 }
 
 .feynman__link:hover {
-  color:#85b8fa;
+  opacity:0.5;
 }
 
 .feynman__pic {
@@ -332,7 +334,6 @@
 }
 
 .khan {
-
   padding-top: 105px;
   background-color:  #f2f2f2;
 }
@@ -398,6 +399,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition:opacity 0.5s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
@@ -433,6 +439,22 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.resources {
+  padding-top: 100px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px;
+  font-size: 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+
 }
 
 .footer {
@@ -492,10 +514,11 @@
   font-size: 18px;
   font-weight: normal;
   font-family: inherit;
+  transition:opacity 0.5s linear;
 }
 
 .footer__column-link:hover {
-  color: #dcdcdc;
+  opacity: 0.5;
 }
 .footer__social-icon {
   width: 16px;
